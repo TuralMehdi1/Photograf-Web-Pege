@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-size: 7px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background:#232323;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+ .btn{
+    margin-top: 3rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem #232323;
+    transition: all 1.5s;
+    
+}
+ .btn:hover{
+    padding: .6rem 1.2rem;
+    color: #fff;
+    background: transparent;
+    box-shadow: 0 0 1rem #fff;
+}
+
+header{
+    height: 46rem;
+}
+
+header .bg-image{
+    position: absolute;
+    background-image: url(img/oto.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 46rem;
+    width: 100%;
+    opacity: .4;
+    z-index: -1;
+}
+
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+#section-a{
+    background: #fff;
+    color: #232323;
+    padding: 3.2rem;
+}
+
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;
+    
+}
+
+#section-b li{
+    background: #fff;
+    color: #232323;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.col img{
+    border-radius: 1.5rem 1.5rem 0 0 ;
+}
+
+.col-content{
+    padding: 1.5rem;
+}
+
+#section-c{
+    padding: 5rem;
+}
+
+#section-d .box{
+    padding: 5rem;
+}
+
+#section-d .box:first-child{
+    background: #fff;
+    color: #232323;
+}
+
+#section-d .box:nth-child(2){
+    background-color: rgb(6, 66, 26);
+}
+
+.box p{
+    margin-bottom: 1rem;
+}
+.box    a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.first-a{
+    color: #232323;
+}
+
+.second-a{
+    color: #fff;
+}
+.box a i{
+    margin-right: .5rem;
+}
+.fa-youtube{
+    color: red;
+}
+
+
+.fa-facebook{
+    color: #fff;
+}
+
+footer{
+    padding: 4rem;
+    background-color: rgb(36, 35, 35);
+    
+}
+
+footer a{
+    color:rgb(21, 175, 72);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media(min-width:760px){
+    html{
+        font-size: 9px;
+    }
+}
+
+@media(min-width:990px){
+    html{
+        font-size: 11px;
+    }
+    #section-b li{
+       width: 28%;
+       margin: 1%;
+       display: inline-block;
+    }
+}
